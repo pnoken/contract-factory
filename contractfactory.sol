@@ -19,3 +19,9 @@ contract VotingFactory {
         return votingContracts;
     }
 }
+
+contract Voting {
+    constructor(address _owner) {
+        owner = _owner;
+    }
+}
